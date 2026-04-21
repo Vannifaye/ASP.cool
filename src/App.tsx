@@ -371,7 +371,7 @@ export default function App() {
         transition={{ duration: 1, ease: "easeOut" }}
         className="mb-8"
       >
-        <img src="https://ais-pre-u55jqabrcbix73hznbngnu-381186712107.europe-west2.run.app/logo.png" alt="logo" className="w-32 h-32 animate-float" />
+        <img src="/logo.png" alt="logo" className="w-32 h-32 animate-float" />
       </motion.div>
       <motion.h1 
         className="text-4xl font-display font-black tracking-[0.5em] mb-4 text-glow"
@@ -511,7 +511,7 @@ export default function App() {
       {/* Header */}
       <header className="p-8 flex justify-between items-center relative z-10">
         <div className="flex items-center gap-4">
-          <img src="https://ais-pre-u55jqabrcbix73hznbngnu-381186712107.europe-west2.run.app/logo.png" alt="logo" className="w-10 h-10" />
+          <img src="/logo.png" alt="logo" className="w-10 h-10" />
           <span className="font-display font-black tracking-widest text-xl">
             ASP<span className={theme === 'dark' ? 'text-accent-orange' : 'text-accent'}>.</span>cool
           </span>
@@ -956,7 +956,7 @@ export default function App() {
                 <div className="flex-1 space-y-12">
                   <div className="flex items-center justify-between mb-8">
                     <div className="flex items-center gap-3">
-                      <img src="https://ais-pre-u55jqabrcbix73hznbngnu-381186712107.europe-west2.run.app/logo.png" alt="logo" className="w-8 h-8" />
+                      <img src="/logo.png" alt="logo" className="w-8 h-8" />
                       <span className="font-display font-black tracking-widest text-lg">
                         ASP<span className={theme === 'dark' ? 'text-accent-orange' : 'text-accent'}>.</span>cool
                       </span>
